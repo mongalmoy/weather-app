@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(to right, #013a44, rgb(0, 0, 73));
+    width: 100%;
+    height: 100vh;
+}
+
+.search-page {
+    margin: 30px;
+    color: #fff;
+}
+
+.search-page .input-container {
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.search-page-heading {
+    margin-left: 30px;
+    width: 500px;
+    float: left;
+}
+
+.search-page-heading h1 {
+    margin: 0;
+    display: inline;
+    letter-spacing: 1.5px;
+    word-spacing: 3px;
+    color: rgba(156, 163, 175, 1);
+    font-weight: 550;
+}
+
+.search-page-heading h1 span {
+    color: #fff;
+    font-weight: 900;
+}
+
+.search-page-input {
+    margin-left: 220px;
+}
+
+.search-page-input input {
+    transition: all 0.5s ease;
+    background: none;
+    border: none;
+    font-size: 25px;
+    width: 140px;
+    outline: none;
+    text-align: center;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.btn-lg {
+    margin-left: 300px;
+    background: linear-gradient(to right, rgb(49, 146, 163), rgb(13, 16, 185));
+}
+
+.search-page-input input:focus {
+    width: 160px;
+}
+
+
+.output-container {
+    margin-top: 60px;
+    width: 100%;
+    height: 2px;
+}
+
+.display {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+} 
+
+.left-container{
+    height: 300px;
+    width: 300px;
+    float: left;
+    color: #fff;
+    position: relative;
+    margin-right: 100px
+}
+
+.left-container .day-city {
+    padding: 10px;
+}
+
+.left-container .day-city h1 {
+    padding: 5px;
+    font-size: 50px;
+    margin: 0;
+}
+
+.left-container .day-city h4 {
+    padding: 5px;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+
+.left-container .temp {
+    position: absolute;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
+
+.left-container .temp .weather-condition {
+    float: left;
+}
+
+.left-container .temp .weather-icon img {
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.left-container .temp h1 {
+    font-size: 60px;
+    padding: 5px;
+    margin: 0;
+    padding-bottom: 0;
+}
+
+.left-container .temp h4 {
+    font-size: 30px;
+    padding: 5px;
+}
+
+.right-container {
+    height: 300px;
+    width: 400px;
+    float: left;
+    color: #fff;
+    margin-left: 50px;
+}
+
+.right-container .properties {
+    padding: 30px 10px;
+    
+}
+
+.right-container .properties .name-value h4 {
+    margin-bottom: 8px;
+    margin-left: 10px;
+}
+
+.right-container .properties .name-value h4 span {
+    float: right;
+    margin-right: 10px;
+}
+
+.right-container .properties .value h4 {
+    display: inline;
+}
+
+
+.footer {
+    color: rgba(156, 163, 175, 1);
+    text-align: center;
+    position: fixed;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
