@@ -106,13 +106,16 @@ body {
 }
 
 .left-container .temp {
-    position: absolute;
     padding: 10px;
-    bottom: 0;
+    margin-top: 20px;
     width: 100%;
 }
 
 .left-container .temp .weather-condition {
+    float: left;
+}
+
+.left-container .temp .weather-icon {
     float: left;
 }
 
