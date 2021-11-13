@@ -1,7 +1,6 @@
-import react from "react";
+import react, {useState} from "react";
 import Footer from "./Footer";
 import Display from './Display'
-import { useState } from "react/cjs/react.development";
 
 function App() {
     const [city, SetCity] = useState('');
