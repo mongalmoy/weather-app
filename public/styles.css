@@ -44,6 +44,12 @@ body {
     margin-left: 220px;
 }
 
+.search-page-input form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .search-page-input input {
     transition: all 0.5s ease;
     background: none;
@@ -58,6 +64,7 @@ body {
 
 .btn-lg {
     margin-left: 300px;
+    border: none;
     background: linear-gradient(to right, rgb(49, 146, 163), rgb(13, 16, 185));
 }
 
@@ -138,7 +145,6 @@ body {
 
 .right-container {
     height: 300px;
-    width: 400px;
     float: left;
     color: #fff;
     margin-left: 50px;
@@ -171,4 +177,89 @@ body {
     bottom: 50px;
     left: 50%;
     transform: translateX(-50%);
+}
+
+@media only screen and (max-width: 600px) {
+
+    .search-page {
+        margin: 10px;
+    }
+
+    .search-page .input-container {
+        padding-top: 20px;
+        display: block;
+        height: 220px;
+        position: relative;
+    }
+    
+    .search-page-heading {
+        display: block;
+        margin: 0;
+        width: 100%;
+    }
+
+    .search-page-heading h1 {
+        display: block;
+        text-align: center;
+        padding: 10px;
+        margin-bottom: 30px;
+        font-size: 40px;
+    }
+
+    .search-page-input {
+        margin-left: 0;
+        display: block;
+        position: relative;
+    }
+
+    .search-page-input form {
+        position: relative;
+        display: block;
+        text-align: center;
+    }
+
+    .search-page-input form input {
+        display: inline;
+        margin-right: 15px;
+    }
+
+    .search-page-input form button {
+        margin-left: 15px;
+        display: inline;
+    }
+
+    .display {
+        margin-top: 0;
+    }
+
+    .left-container {
+        display: block;
+        float: none;
+        margin-right: 0;
+        width: 400px;
+        height: 380px;
+        text-align: center;
+    }
+
+    .left-container .temp {
+        display: block;
+        text-align: center;
+    }
+
+    .left-container .temp .weather-condition {
+        float: none;
+        display: inline;
+    }
+    
+    .left-container .temp .weather-icon {
+        float: none;
+        display: inline;
+    }
+
+    .right-container {
+        display: block;
+        float: none;
+        margin: 30px 10px 0px;
+    }
+
 }

@@ -26,21 +26,21 @@ function Display(props) {
                 </div>
                 <div className='right-container'>
                     <div className='properties'>
-                    <div className='name-value'>
-                        <h4>Feels Like <span className='value'><h4>{props.feelsLike}</h4> &#176;C</span></h4>
-                    </div>
-                    <div className='name-value'>
-                        <h4>Humidity <span className='value'>{props.humidity} %</span></h4>
-                    </div>
-                    <div className='name-value'>
-                        <h4>Air Pressure <span className='value'><h4>{Math.round(props.pressure)}</h4> hPa</span></h4>
-                    </div>
-                    <div className='name-value'>
-                        <h4>Max Temp <span className='value'><h4>{Math.round(props.maxTemp) }</h4> &#176;C</span></h4>
-                    </div>
-                    <div className='name-value'>
-                        <h4>Max Temp <span className='value'><h4>{Math.round(props.minTemp)}</h4> &#176;C</span></h4>
-                    </div>
+                        <div className='name-value'>
+                            <h4>Feels Like <span className='value'><h4>{props.feelsLike}</h4> &#176;C</span></h4>
+                        </div>
+                        <div className='name-value'>
+                            <h4>Humidity <span className='value'>{props.humidity} %</span></h4>
+                        </div>
+                        <div className='name-value'>
+                            <h4>Air Pressure <span className='value'><h4>{Math.round(props.pressure)}</h4> hPa</span></h4>
+                        </div>
+                        <div className='name-value'>
+                            <h4>Max Temp <span className='value'><h4>{Math.round(props.maxTemp) }</h4> &#176;C</span></h4>
+                        </div>
+                        <div className='name-value'>
+                            <h4>Max Temp <span className='value'><h4>{Math.round(props.minTemp)}</h4> &#176;C</span></h4>
+                        </div>
                     </div>
                 </div>
             </div>
