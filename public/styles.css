@@ -288,4 +288,13 @@ body {
         margin: 30px 10px 0px;
     }
 
+    .footer {
+        position: relative;
+        display: block;
+        left: 0;
+        bottom: 0;
+        padding-bottom: 30px;
+        transform: translate(0%, 50%);
+    }
+
 }
