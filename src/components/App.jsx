@@ -3,7 +3,7 @@ import Footer from "./Footer";
 import Display from './Display'
 
 function App() {
-    const [city, SetCity] = useState('kolkata');
+    const [city, SetCity] = useState('');
     const [weather, SetWeather] = useState({});
 
     const API_KEY = '6936a062aba84239e40dc5dcf0a4a8a3';
